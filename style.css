@@ -390,8 +390,9 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 19px;
 }
-.socials a{
+footer a{
     color: black;
 }
 #myBtn {
@@ -703,12 +704,13 @@ footer{
     header {
         justify-content: space-between;
         padding: 0px 40px;
+        height: 100px;
     }
     .brand-area{
         gap: 10px;
     }
     .brand-area h3{
-        font-size: 19px;
+        font-size: 18px;
     }    
     nav{
         display: none;
@@ -734,7 +736,7 @@ footer{
     }
     .image-area-text{
         top: 30%;
-        left: 20%;
+        left: 17%;
         text-align: center;
     }
     .image-area-text h1{
@@ -760,6 +762,7 @@ footer{
         height: 50%;
         align-items: center;
         padding-left: 0;
+        padding: 0px 20px;
     }
     .LBA-text h2 {
         font-size: 25px;
@@ -809,12 +812,12 @@ footer{
         gap: 20px;
     }
     .discuss{
-        height: 1200px;
+        height: 1220px;
         flex-direction: column;
     }
     .discuss-text{
         width: 100%;
-        height: 550px;
+        height: 570px;
     }
     .discuss-text h3{
         font-size: 24px;
@@ -836,6 +839,10 @@ footer{
         flex-direction: column-reverse;
         justify-content: center;
         gap: 15px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 14px;
     }
     /* About Page */
     .about-intro{
@@ -899,6 +906,10 @@ footer{
     }
     .service{
         flex-direction: column;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
     }
     /* Category Details Page */
     .category-page{
