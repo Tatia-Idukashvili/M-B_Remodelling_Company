@@ -856,7 +856,7 @@ footer a{
         min-height: 500px;
     }    
     .op-title {
-        height: 300px;
+        height: 320px;
         gap: 30px;
         padding: 0px 30px;
     }
@@ -886,7 +886,7 @@ footer a{
     .quality-guarantee{
         height: auto;
         gap: 15px;
-        padding: 0px 50px;
+        padding: 20px 40px;
     }
     .quality-guarantee h2{
         font-size: 25px;
@@ -897,7 +897,7 @@ footer a{
     }
     /* Services Page */
     .services-page{
-        height: 3600px;
+        height: 3800px;
         justify-content: center;
         gap: 50px;
     }
@@ -908,12 +908,12 @@ footer a{
         flex-direction: column;
     }
     .image-container img {
-        width: 100%;
+        width: 95%;
         height: 240px;
     }
     .si-info{
-        height: 220px;
-        padding: 0px 20px;
+        height: 200px;
+        padding: 0px 30px;
     }
     /* Category Details Page */
     .category-page{
@@ -939,7 +939,6 @@ footer a{
     /* Work Page */
     .work-page{
         height: auto;
-        padding: 30px 0px;
     }
     .image-container1{
         width: 100%;
