@@ -941,6 +941,6 @@ footer a{
     }
     .image-container1{
         width: 100%;
-        height: auto;
+        /* height: auto; */
     }
 }
