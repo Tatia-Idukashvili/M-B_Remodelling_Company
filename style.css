@@ -910,7 +910,11 @@ footer a{
     }
     .image-container img {
         width: 100%;
-        height: auto;
+        height: 240px;
+    }
+    .si-info{
+        height: 220px;
+        padding: 0px 20px;
     }
     /* Category Details Page */
     .category-page{
