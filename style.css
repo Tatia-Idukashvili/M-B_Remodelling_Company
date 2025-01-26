@@ -837,4 +837,52 @@ footer{
         justify-content: center;
         gap: 15px;
     }
+    /* About Page */
+    .about-intro{
+        height: 400px;
+        gap: 30px;
+        padding: 0px 25px;
+    }
+    .about-intro h1{
+        font-size: 24px;
+    }
+    .about-intro-img{
+        min-height: 500px;
+    }    
+    .op-title {
+        height: 300px;
+        gap: 30px;
+    }
+    .op-title h2 {
+        font-size: 30px;
+    }
+    .our-process{
+        height: 3850px;
+    }
+    .process-row {
+        flex-direction: column;
+    }
+    .process-item {
+        flex-direction: column;
+    }
+    .pt1{
+        flex-direction: column-reverse;
+    }
+    .process-item img {
+        width: 100%;
+        height: auto;
+    }
+    .process {
+        width: 100%;
+        height: 300px;
+    }
+    .quality-guarantee{
+        height: 1100px;
+        gap: 15px;
+        padding: 0px 50px;
+    }
+    .quality-guarantee h2{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
 }
