@@ -901,4 +901,24 @@ footer{
         flex-direction: column;
     }
     /* Category Details Page */
+    .category-page{
+        height: auto;
+    }
+    .gallery {
+        gap: 20px;
+    }
+    .gallery-image {
+        width: 100%;
+        height: auto;
+    }
+    .gallery-image:hover {
+        transform: scale(1);
+    }
+    .category-page-title{
+        padding: 40px;
+        gap: 30px;
+    }    
+    .category-page-title h1{
+        font-size: 25px;
+    }
 }
