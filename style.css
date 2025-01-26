@@ -846,9 +846,9 @@ footer a{
     }
     /* About Page */
     .about-intro{
-        height: 400px;
+        height: 470px;
         gap: 30px;
-        padding: 0px 25px;
+        padding: 0px 30px;
     }
     .about-intro h1{
         font-size: 24px;
@@ -859,12 +859,13 @@ footer a{
     .op-title {
         height: 300px;
         gap: 30px;
+        padding: 0px 30px;
     }
     .op-title h2 {
         font-size: 30px;
     }
     .our-process{
-        height: 3850px;
+        height: auto;
     }
     .process-row {
         flex-direction: column;
@@ -884,7 +885,7 @@ footer a{
         height: 300px;
     }
     .quality-guarantee{
-        height: 1100px;
+        height: auto;
         gap: 15px;
         padding: 0px 50px;
     }
