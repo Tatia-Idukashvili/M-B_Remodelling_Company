@@ -896,7 +896,7 @@ footer a{
         font-size: 25px;
     }
     /* Services Page */
-    .services-page{
+    /* .services-page{
         height: 3600px;
         justify-content: center;
         gap: 50px;
@@ -914,6 +914,24 @@ footer a{
     .si-info{
         height: 150px;
         width: 100%;
+    } */
+    .services-page {
+        height: auto; /* Allow the height to adjust dynamically */
+        gap: 40px;
+        padding: 20px; /* Add some padding for better spacing */
+    }
+    .service {
+        flex-direction: column; /* Stack services vertically */
+        gap: 30px; /* Adjust gap between services */
+    }
+    .image-container img {
+        width: 100%; /* Fit the container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .si-info {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Allow content to grow dynamically */
+        padding: 10px 0; /* Add spacing around text */
     }
     /* Category Details Page */
     .category-page{
@@ -937,11 +955,27 @@ footer a{
         font-size: 25px;
     }
     /* Work Page */
-    .work-page{
+    /* .work-page{
         height: auto;
     }
     .image-container1{
         width: 100%;
-        /* height: auto; */
+    } */
+    .work-page {
+        height: auto; /* Let the height adjust dynamically */
+        padding: 20px; /* Add padding for consistent spacing */
+    }
+    .image-container1 {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .image-container1 img {
+        width: 100%; /* Ensure images fit their containers */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure proper fit */
+    }
+    .service {
+        flex-direction: column; /* Stack services vertically */
+        gap: 20px; /* Adjust spacing between services */
     }
 }
