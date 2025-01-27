@@ -547,91 +547,10 @@ footer a{
     transition: 0.6s;
 }
 /* Services Page */
-/* .services-page{
-    background-color: rgb(245,245,245);
-    height: 1450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-.services-page h2{
-    font-size: 40px;
-    font-weight: 600;
-}
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-.service{
-    display: flex;
-    gap: 40px;
-}
-.service a{
-    text-decoration: none;
-    color: black;
-}
-.si-info{
-    height: 200px;
-    width: 426px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.si-info h4{
-    font-size: 22px;
-    font-weight: 600;
-}
-.sp-title{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.image-container {
-    position: relative;
-    width: 426px;
-    height: 319px;
-    overflow: hidden;
-}
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: filter 0.3s ease;
-}
-.image-container .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.284); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.image-container .overlay span {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 0 10px;
-}
-.image-container:hover img {
-    filter: brightness(70%);
-}
-.image-container:hover .overlay {
-    opacity: 1; 
-} */
 .services-page {
     padding: 40px 20px;
     text-align: center;
+    background-color: rgb(245,245,245)
 }
 .services-page h2 {
     font-size: 40px;
@@ -642,12 +561,11 @@ footer a{
     font-size: 18px;
     margin-bottom: 40px;
 }
-
-/* Services Grid */
 .services {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    margin-top: 80px;
 }
 .service {
     display: flex;
@@ -659,8 +577,6 @@ footer a{
     text-decoration: none;
     color: black;
 }
-
-/* Service Info */
 .service-info {
     width: 426px;
 }
@@ -670,6 +586,7 @@ footer a{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    margin-top: 20px;
 }
 .si-info h4 {
     font-size: 22px;
@@ -680,14 +597,11 @@ footer a{
     font-size: 16px;
     line-height: 1.5;
 }
-
-/* Image Styling */
 .image-container {
     position: relative;
     width: 100%;
     aspect-ratio: 4 / 3;
     overflow: hidden;
-    border-radius: 10px;
 }
 .image-container img {
     width: 100%;
@@ -701,7 +615,7 @@ footer a{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.293);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -756,99 +670,74 @@ footer a{
     gap: 30px;
 }
 /* Work Page */
-/* .work-page{
-    height: 1250px;
-}
-.image-container1{
-    width: 435px;
-    height: 435px;
-}
-.image-container1 .overlay span {
-    font-weight: 600;
-}        */
 .work-page {
     padding: 40px 20px;
     text-align: center;
+    background-color: rgb(245,245,245);
 }
-
 .wp-title {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
-
 .wp-title h2 {
     font-size: 40px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
-
 .wp-title p {
     font-size: 18px;
 }
-
-/* Work Gallery */
 .work-gallery {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
-
 .work-row {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .work-item {
     text-decoration: none;
     color: inherit;
 }
-
-/* Work Info */
 .work-info {
     width: 435px;
     height: 435px;
 }
-
 .image-container {
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
     overflow: hidden;
 }
-
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: filter 0.3s ease;
 }
-
 .image-container .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.293);
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .image-container .overlay span {
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 200;
 }
-
 .image-container:hover img {
     filter: brightness(70%);
 }
-
 .image-container:hover .overlay {
     opacity: 1;
 }
@@ -938,7 +827,6 @@ footer a{
         width: 100%; 
         height: 50%;
         align-items: center;
-        /* margin: 0px 2px; */
     }
     .LBA-text h2 {
         font-size: 25px;
@@ -1073,25 +961,6 @@ footer a{
         font-size: 25px;
     }
     /* Services Page */
-    /* .services-page{
-        height: 3600px;
-        justify-content: center;
-        gap: 50px;
-    }
-    .services-page h2{
-        font-size: 30px;
-    }
-    .service{
-        flex-direction: column;
-    }
-    .image-container img {
-        width: 95%;
-        height: 240px;
-    }
-    .si-info{
-        height: 150px;
-        width: 100%;
-    } */
     .services {
         gap: 40px;
     }
@@ -1133,20 +1002,16 @@ footer a{
     .wp-title h2 {
         font-size: 32px;
     }
-
     .wp-title p {
         font-size: 16px;
     }
-
     .work-row {
         gap: 20px;
     }
-
     .work-info {
         width: 100%;
         height: auto;
     }
-
     .image-container {
         aspect-ratio: 1 / 1;
     }
