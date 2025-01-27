@@ -756,7 +756,7 @@ footer a{
     gap: 30px;
 }
 /* Work Page */
-.work-page{
+/* .work-page{
     height: 1250px;
 }
 .image-container1{
@@ -765,7 +765,93 @@ footer a{
 }
 .image-container1 .overlay span {
     font-weight: 600;
-}       
+}        */
+.work-page {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.wp-title {
+    margin-bottom: 40px;
+}
+
+.wp-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wp-title p {
+    font-size: 18px;
+}
+
+/* Work Gallery */
+.work-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.work-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Work Info */
+.work-info {
+    width: 435px;
+    height: 435px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container .overlay span {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.image-container:hover img {
+    filter: brightness(70%);
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
 /* Contact Page */
 .contact{
     background-color: rgb(245,245,245);
@@ -852,7 +938,7 @@ footer a{
         width: 100%; 
         height: 50%;
         align-items: center;
-        margin: 0px 2px;
+        /* margin: 0px 2px; */
     }
     .LBA-text h2 {
         font-size: 25px;
@@ -1044,27 +1130,24 @@ footer a{
         font-size: 25px;
     }
     /* Work Page */
-    /* .work-page{
+    .wp-title h2 {
+        font-size: 32px;
+    }
+
+    .wp-title p {
+        font-size: 16px;
+    }
+
+    .work-row {
+        gap: 20px;
+    }
+
+    .work-info {
+        width: 100%;
         height: auto;
     }
-    .image-container1{
-        width: 100%;
-    } */
-    .work-page {
-        height: auto; /* Let the height adjust dynamically */
-        padding: 20px; /* Add padding for consistent spacing */
-    }
-    .image-container1 {
-        width: 100%; /* Full width for smaller screens */
-        height: auto; /* Maintain aspect ratio */
-    }
-    .image-container1 img {
-        width: 100%; /* Ensure images fit their containers */
-        height: auto; /* Maintain aspect ratio */
-        object-fit: cover; /* Ensure proper fit */
-    }
-    .service {
-        flex-direction: column; /* Stack services vertically */
-        gap: 20px; /* Adjust spacing between services */
+
+    .image-container {
+        aspect-ratio: 1 / 1;
     }
 }
