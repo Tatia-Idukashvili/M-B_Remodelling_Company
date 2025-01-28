@@ -827,7 +827,8 @@ footer a{
         width: 100%; 
         height: 50%;
         align-items: center;
-        padding-left: 0px 30px;
+        padding-left: 0px;
+        padding: 0px 10px;
     }
     .LBA-text h2 {
         font-size: 25px;

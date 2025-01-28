@@ -1,6 +1,6 @@
 # M&B Remodelling Company - Website Template
 ## Introduction
-M&B Remodelling Company website template is a sophisticated and fully responsive front-end project designed for a remodeling business. Built with HTML, CSS, and JavaScript, this template provides a sleek and professional platform to showcase the company's services, portfolio, and contact information.
+M&B Remodeling Company website template is a sophisticated and fully responsive front-end project designed for a remodeling business. Built with HTML, CSS, and JavaScript, this template provides a sleek and professional platform to showcase the company's services, portfolio, and contact information.
 
 ### Features
 • Home Page: An introduction to M&B Remodelling Company, showcasing the brand and services offered. <br> 
