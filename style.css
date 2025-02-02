@@ -813,7 +813,8 @@ footer a{
         height: 35px;
     }
     .LBA {
-        height: 800px; 
+        height: auto;
+        padding: 40px 0;
     }
     .LBA-all {
         flex-direction: column-reverse;
@@ -821,18 +822,23 @@ footer a{
     }
     .LBA-image-area {
         width: 100%; 
-        height: 50%;
+        height: 50vh;
     }
     .LBA-text {
         width: 100%; 
-        height: 50%;
-        align-items: center;
-        padding-left: 0px;
-        /* padding: 0px 10px; */
-        margin: 0px 20px;
+        padding: 20px 40px; 
+        text-align: center; 
+        box-sizing: border-box; 
     }
     .LBA-text h2 {
-        font-size: 25px;
+        font-size: 28px;
+    }
+    .LBA-text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .LBA-text button {
+        margin-top: 10px;
     }
     .WCU{
         height: 1000px;
